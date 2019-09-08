@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "MarkLin",
+  "classifications": [ "Common", "SDK", "C#8" ],
+  "identity": "Marsen.Blog.Plugin.Template",
+  "name": "Marsen Blog Plugin Template",
+  "shortName": "mbp",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },  
+  "preferNameDirectory": true,
+  "symbols":{
+    "pluginName": {
+      "type": "parameter",
+      "defaultValue": "Demo",
+	  "fileRename": "F-plugin-name",	  
+      "replaces":"(C-plugin-name)"
+    }
+  }
+}
